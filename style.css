@@ -38,6 +38,11 @@ img {
     padding: 30px;
 }
 
+.footer a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .page {
     display: flex;
     flex-flow: column;
@@ -45,6 +50,7 @@ img {
 }
 .container2, .container3, .container4 {
     flex: 1;
+    display: flex;
 }
 
 .logo {
@@ -96,7 +102,7 @@ img {
     font-size: 18px;
     color: #E5E7EB;
     flex-shrink: 1;
-    margin-left: 4.4em;
+    margin-left: 4.5em;
 }
 
 .button1 button {
@@ -107,10 +113,117 @@ img {
     border-radius: 9px;
     margin-top: 5px;
     font-size: 16px;
-    padding: 5px 25px;
+    padding: 6px 30px;
 }
 
 .button1 {
     width: 350px;
     flex: 1;
+}
+
+.container2 {
+    display: flex;
+    flex-flow: column;
+}
+
+.text2 {
+    align-self: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    margin-top: 50px;
+}
+
+.Box {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+.box1, .box2, .box3, .box4 {
+    flex: 0;
+    display: flex;
+    flex-flow: column;
+    gap: 10px;
+}
+
+.Box .boxes {
+    border-radius: 15px;
+    border: #3882F6;
+    border-style: solid;
+    width: 150px;
+    height: 150px;
+}
+
+.Box .text3 {
+    color: #605656;
+}
+
+.container3 {
+    display: flex;
+    flex-flow: column;
+    background-color: #E5E7EB;
+    padding: 7em;
+    align-items: center;
+}
+
+.quote {
+    width: 820px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: lighter;
+}
+
+.author {
+    text-align: end;
+    width: 820px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: 2em;
+}
+
+.container4 .containerBox {
+    flex: 1;
+    display: flex;
+    height: 170px;
+    margin: 6em 14em 6em 14em;
+    background-color: #3882F6;
+    border-radius: 15px;
+}
+
+.containerBox .recruit  {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    margin-left: 9em;
+    gap: 5px;
+}
+.containerBox .infobutton {
+    align-self: center;
+    flex: 1;
+    text-align: center;
+}
+.containerBox .infobutton button {
+    padding: 5px 36px;
+    border-radius: 9px;
+    background: #3882F6;
+    border-style: solid;
+    color: white;
+    font-weight: bold;
+    font-size: medium;
+}
+
+.recruit div {
+    font-size: 26px;
+    color: white;
+    font-weight: bolder;
+}
+
+.recruit .info {
+    font-size: 18px;
+    font-weight: normal;
 }
